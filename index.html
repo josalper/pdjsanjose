@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastoral Juvenil · Parroquia de San José</title>
+  <style>
+    :root {
+      --azul-fondo: #163B82;
+      --azul-claro: #2D6FE0;
+      --dorado: #F0A500;
+      --crema: #FBF6EC;
+      --texto-claro: #FFFFFF;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: linear-gradient(180deg, var(--azul-fondo) 0%, var(--azul-claro) 55%, var(--azul-fondo) 100%);
+      color: var(--texto-claro);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 24px 60px;
+    }
+
+    header {
+      text-align: center;
+      padding: 48px 0 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .titulo-wrap {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+
+    .titulo {
+      font-size: 2.6rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      line-height: 1.05;
+      color: var(--crema);
+      text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.3);
+      display: inline-block;
+      background: var(--dorado);
+      padding: 6px 18px;
+      transform: rotate(-1.5deg);
+      border-radius: 6px;
+      box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .subtitulo {
+      margin-top: 8px;
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--texto-claro);
+      font-weight: 600;
+      background: rgba(255, 255, 255, 0.12);
+      display: block;
+      width: fit-content;
+      padding: 4px 16px;
+      border-radius: 20px;
+    }
+
+    .arco {
+      width: 100%;
+      max-width: 480px;
+      height: 4px;
+      background: var(--dorado);
+      border-radius: 4px;
+      margin: 28px 0;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 480px;
+      width: 100%;
+    }
+
+    .bloque {
+      background: var(--crema);
+      color: var(--azul-fondo);
+      border: 3px solid var(--azul-fondo);
+      border-radius: 20px;
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .bloque h2 {
+      color: var(--azul-fondo);
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
+      font-weight: 800;
+    }
+
+    .bloque p {
+      line-height: 1.6;
+      font-size: 1.02rem;
+      color: var(--azul-fondo);
+    }
+
+    .cta {
+      display: block;
+      text-align: center;
+      background: var(--dorado);
+      color: var(--azul-fondo);
+      font-weight: 800;
+      font-size: 1.1rem;
+      padding: 16px 24px;
+      border-radius: 14px;
+      text-decoration: none;
+      border: 3px solid var(--azul-fondo);
+      box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+      transition: transform 0.15s ease;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .cta:active {
+      transform: translateY(4px);
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+    }
+
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.65);
+    }
+
+    footer a {
+      color: var(--dorado);
+      text-decoration: none;
+    }
+
+    .lema {
+      text-align: center;
+      color: var(--azul-fondo);
+      font-weight: 800;
+      font-size: 1.25rem;
+      margin: 32px 0 8px;
+      background: var(--crema);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 16px;
+      border: 3px solid var(--azul-fondo);
+      box-shadow: 0 5px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .lema-wrap {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="titulo-wrap">
+      <div class="titulo">PASTORAL<br>JUVENIL</div>
+      <div class="subtitulo">Parroquia de San José</div>
+    </div>
+  </header>
+
+  <div class="arco"></div>
+
+  <main>
+    <!-- <div class="bloque">
+      <h2>¿Qué es?</h2>
+      <p>TEXTO DE ANGELA</p>
+    </div>
+
+    <a class="cta" href="#" target="_blank" rel="noopener">
+      ¡Quiero apuntarme! →
+    </a> -->
+
+    <div class="lema-wrap">
+      <div class="lema">¡Caminamos con Jesús!</div>
+    </div>
+  </main>
+
+  <footer>
+    Escríbenos a <a href="mailto:CORREO@PENDIENTE">CORREO@PENDIENTE</a>
+  </footer>
+
+</body>
+
+</html>
